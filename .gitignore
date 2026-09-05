@@ -1,0 +1,5 @@
+.config/
+.termux/
+.gitconfig
+.lesshst
+.ssh/
