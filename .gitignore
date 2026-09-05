@@ -1,0 +1,10 @@
+.config/
+.termux/
+.gitconfig
+.lesshst
+.ssh/
+.bash_history
+
+Material Shareholder Information.nm.save
+payload.json
+
