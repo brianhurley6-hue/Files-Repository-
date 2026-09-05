@@ -1,2 +1,5 @@
-.local/
+.config/
+.termux/
+.gitconfig
+.lesshst
 .ssh/
