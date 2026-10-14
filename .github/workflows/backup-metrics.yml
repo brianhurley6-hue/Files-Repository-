@@ -1,4 +1,4 @@
-Iname: Backup Clone Metrics
+name: Backup Clone Metrics
 on:
 push:
 branches:
