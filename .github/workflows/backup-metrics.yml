@@ -1,18 +1,18 @@
-name: Backup Clone Metrics
+
+ name: Backup Clone Metrics
 on:
 push:
 branches:
 - main
 workflow_dispatch:
-​permissions:
-  contents: write
-​jobs:
-run:
+permissions:
+contents: write
+jobs:
+backup:
 runs-on: ubuntu-latest
 steps:
 - uses: actions/checkout@v4
-- uses: tech-know-logy/github-repository-traffic-exporter@v1
+- uses: tech-know-log/github-repository-sync-action@v2
 with:
 REPO: ${{ github.repository }}
-TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
+TOKEN: ${{ secrets.GITHUB_TOKEN }}     
