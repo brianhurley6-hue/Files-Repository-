@@ -2,7 +2,7 @@ name: Backup Metrics
 on:
 push:
 branches:
-​main
+- main
 workflow_dispatch:
 permissions:
 contents: write
@@ -10,8 +10,8 @@ jobs:
 backup:
 runs-on: ubuntu-latest
 steps:
-​uses: actions/checkout@v4
-​uses: >-
+- uses: actions/checkout@v4
+- uses: >-
 tech-know-log/
 github-repository-sync-action@v2
 with:
