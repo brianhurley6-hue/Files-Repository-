@@ -1,4 +1,4 @@
-  name: Backup Clone Metrics
+name: Backup Clone Metrics
 on:
 push:
 branches:
@@ -14,4 +14,4 @@ steps:
 - uses: tech-know-log/github-repository-sync-action@v2
 with:
 REPO: ${{ github.repository }}
-TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+TOKEN: ${{ secrets.GITHUB_
